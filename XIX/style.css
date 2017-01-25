@@ -1,0 +1,67 @@
+body
+{
+	background-image: url("img/parchment1.1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+td.menu
+{
+	text-align: center;
+	font-family: American TextC;
+	font-size: 28px;
+}
+
+p
+{
+	
+	font-family: Anfisa Grotesk;
+	font-size: 23px;
+	padding: 15px 35px;
+
+}
+
+a
+{
+	color: #cc7a00;
+}
+a:visited
+{
+	color: #cc7a00;
+}
+a:active
+{
+	color: #995c00;
+}
+
+footer
+{
+	background-color: red;
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 30px;
+  	text-align: right;
+	font-family: American TextC;
+	font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Anfisa Grotesk';
+    src: local('Anfisa Grotesk'), url('fonts/anfisa/anfisagrotesk.woff2') format('woff2'), url('fonts/anfisa/anfisagrotesk.woff') format('woff'), url('fonts/anfisa/anfisagrotesk.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alexander';
+    src: local('Alexander'), url('fonts/alexander/alexander.woff2') format('woff2'), url('fonts/alexander/alexander.woff') format('woff'), url('fonts/alexander/alexander.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'American TextC';
+    src: local('American TextC'), url('fonts/americantext/americantextc.woff2') format('woff2'), url('fonts/americantext/americantextc.woff') format('woff'), url('fonts/americantext/americantextc.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
