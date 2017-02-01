@@ -12,9 +12,27 @@ td.menu
 	font-size: 28px;
 }
 
+td.undermenu
+{
+	text-align: center;
+	font-family: American TextC;
+	font-size: 20px;
+}
+
+h1
+{
+	font-family: American TextC;
+
+}
+
+ol
+{
+	font-family: Anfisa Grotesk;
+	font-size: 21px;
+}
+
 p
 {
-	
 	font-family: Anfisa Grotesk;
 	font-size: 23px;
 	padding: 15px 35px;
